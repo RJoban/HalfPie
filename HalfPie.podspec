@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/ravi7876/HalfPie'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'ravi7876' => 'ravi@vetron.in' }
+  s.author           = { 'ravi7876' => 'ravi.joban2394@gmail.com' }
   s.source           = { :git => 'https://github.com/ravi7876/HalfPie.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
