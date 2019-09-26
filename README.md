@@ -13,7 +13,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 1. init HalfPie
 ```
-let roundView = HalFPie()
+let roundView = HalfPie()
 ```
 2. Customization
 ```
