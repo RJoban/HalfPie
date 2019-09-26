@@ -22,7 +22,7 @@ pod 'HalfPie'
 
 ## Author
 
-ravi7876, ravi@vetron.in
+Ravi Jobanputra, ravi.joban@gmail.com
 
 ## License
 
