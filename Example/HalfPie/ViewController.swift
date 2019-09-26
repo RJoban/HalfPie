@@ -7,12 +7,21 @@
 //
 
 import UIKit
+import HalfPie
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var Round_view: HalfPieView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        Round_view.frontLineWidth = 3
+        Round_view.bottomLineWidth = 5
+        Round_view.frontLineColor = .green
+        Round_view.bottomLineColor = .lightGray
+        Round_view.needPointer = true
+        Round_view.Add_PieViewFor(value: 5.9, total: 25)
+        
     }
 
     override func didReceiveMemoryWarning() {

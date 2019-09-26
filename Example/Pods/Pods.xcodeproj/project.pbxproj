@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0549A519FED0FE3CE39F5AB86F743732 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		36496014FCEADAA991E333A78BFAC1DD /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2D7B9E73BBEC2A994CE689B11D4662 /* ReplaceMe.swift */; };
+		1C8489DF233CCD4800BCEAD8 /* HalfPieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8489DE233CCD4800BCEAD8 /* HalfPieView.swift */; };
 		60DAC031DDE5F416C0D36685FF7C4D6E /* HalfPie-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA11CDF3F2A79034D873044397EB16F /* HalfPie-dummy.m */; };
 		A4F42075F9E7E952757430A558EA71AD /* HalfPie-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5280424506E66774AC131A158ABEE67 /* HalfPie-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A5FE2F4C0BD24091849CC9B45C14BA10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -38,10 +38,11 @@
 
 /* Begin PBXFileReference section */
 		1B5AC48CBB63AF783F396ED15B0B62BA /* Pods-HalfPie_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HalfPie_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1C8489DE233CCD4800BCEAD8 /* HalfPieView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalfPieView.swift; sourceTree = "<group>"; };
 		2E3A68A33536FF4077C32D0F4B59D84F /* Pods-HalfPie_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HalfPie_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2F0FA6EA822FF30E3E2B1D47DDC5EA39 /* Pods-HalfPie_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HalfPie_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		342891C72266C61EC221F7968C184D13 /* HalfPie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HalfPie.framework; path = HalfPie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		342891C72266C61EC221F7968C184D13 /* HalfPie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HalfPie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42EC157C3DD42AEAF0F9B190FBF9462F /* Pods-HalfPie_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HalfPie_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4BA11CDF3F2A79034D873044397EB16F /* HalfPie-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HalfPie-dummy.m"; sourceTree = "<group>"; };
 		5817A68A1CDF1461F79AB2890B1CF7E8 /* Pods-HalfPie_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HalfPie_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -49,24 +50,23 @@
 		63223E2B8A3DE89D63AD735F69410AA1 /* Pods-HalfPie_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HalfPie_Example-frameworks.sh"; sourceTree = "<group>"; };
 		6779AF31B6E790068A2597107A3E531C /* HalfPie.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HalfPie.modulemap; sourceTree = "<group>"; };
 		7D63172D68341537969F9A73899272C2 /* HalfPie.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HalfPie.xcconfig; sourceTree = "<group>"; };
-		84E5A6C4D789134400C5C87630A4B4C3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		84E5A6C4D789134400C5C87630A4B4C3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		8BFD485D0B1A1BEBCEE23BD2EE830E04 /* Pods-HalfPie_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HalfPie_Tests-Info.plist"; sourceTree = "<group>"; };
 		9735C5948E091B6C34149464CFDA2A39 /* Pods-HalfPie_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HalfPie_Example-umbrella.h"; sourceTree = "<group>"; };
 		976A965F7B482F5DA514BFF5C33EEE8F /* Pods-HalfPie_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HalfPie_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		987D2A001621FE324682C5038C50E970 /* Pods-HalfPie_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HalfPie_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		99396F1F7F16B05EC9C3AB99C50902F5 /* Pods_HalfPie_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HalfPie_Example.framework; path = "Pods-HalfPie_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9CD48ABF7823A37C90545EE6AD841672 /* Pods_HalfPie_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HalfPie_Tests.framework; path = "Pods-HalfPie_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99396F1F7F16B05EC9C3AB99C50902F5 /* Pods_HalfPie_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HalfPie_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CD48ABF7823A37C90545EE6AD841672 /* Pods_HalfPie_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HalfPie_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D33F8D35AF440CD813B1C11FCD09C77 /* HalfPie-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HalfPie-prefix.pch"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A4DDCBFC4D9FF1ABD4E77CE2C52824D9 /* HalfPie.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HalfPie.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A95316C939A2820DBFDD32BE2C39AD09 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4DDCBFC4D9FF1ABD4E77CE2C52824D9 /* HalfPie.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HalfPie.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A95316C939A2820DBFDD32BE2C39AD09 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		AB2821FBEAC7560E19B8B70504EA5300 /* Pods-HalfPie_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HalfPie_Example.modulemap"; sourceTree = "<group>"; };
 		C83F167C8F98AE96551384F57B783314 /* Pods-HalfPie_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HalfPie_Example-dummy.m"; sourceTree = "<group>"; };
 		CEF0C849AF571C71A55CF793EC249576 /* Pods-HalfPie_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HalfPie_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CF1C066E67E4B231EB7E1A47E59AB22B /* Pods-HalfPie_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HalfPie_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D6BB4E1387F268BE1C644A50868FD18C /* Pods-HalfPie_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HalfPie_Tests.modulemap"; sourceTree = "<group>"; };
 		DD04CB96550EEEE271CA81F6E762B5B3 /* HalfPie-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HalfPie-Info.plist"; sourceTree = "<group>"; };
-		DF2D7B9E73BBEC2A994CE689B11D4662 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = HalfPie/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		E5280424506E66774AC131A158ABEE67 /* HalfPie-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HalfPie-umbrella.h"; sourceTree = "<group>"; };
 		E566D118803DB49C63B4EFFF17423613 /* Pods-HalfPie_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HalfPie_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -102,7 +102,7 @@
 		01B4B996C7475205D711C4F868269ADB /* HalfPie */ = {
 			isa = PBXGroup;
 			children = (
-				DF2D7B9E73BBEC2A994CE689B11D4662 /* ReplaceMe.swift */,
+				1C8489DD233CCD3300BCEAD8 /* Source */,
 				31D9360784FE2D163DA814DD9A19334D /* Pod */,
 				10BD0CA82B02F917D5343353BFABF4DB /* Support Files */,
 			);
@@ -122,6 +122,14 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/HalfPie";
+			sourceTree = "<group>";
+		};
+		1C8489DD233CCD3300BCEAD8 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1C8489DE233CCD4800BCEAD8 /* HalfPieView.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 		31D9360784FE2D163DA814DD9A19334D /* Pod */ = {
@@ -315,6 +323,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					6EA4901ECDFDF980FCF83CD3A9B09CD9 = {
+						LastSwiftMigration = 1020;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -372,8 +385,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C8489DF233CCD4800BCEAD8 /* HalfPieView.swift in Sources */,
 				60DAC031DDE5F416C0D36685FF7C4D6E /* HalfPie-dummy.m in Sources */,
-				36496014FCEADAA991E333A78BFAC1DD /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,7 +432,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-HalfPie_Example/Pods-HalfPie_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-HalfPie_Example/Pods-HalfPie_Example.modulemap";
@@ -453,7 +466,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-HalfPie_Tests/Pods-HalfPie_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-HalfPie_Tests/Pods-HalfPie_Tests.modulemap";
@@ -474,6 +487,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7D63172D68341537969F9A73899272C2 /* HalfPie.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -486,7 +500,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/HalfPie/HalfPie-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/HalfPie/HalfPie-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/HalfPie/HalfPie.modulemap";
 				PRODUCT_MODULE_NAME = HalfPie;
@@ -494,7 +508,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -518,7 +532,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-HalfPie_Tests/Pods-HalfPie_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-HalfPie_Tests/Pods-HalfPie_Tests.modulemap";
@@ -584,13 +598,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -647,7 +660,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -664,6 +677,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7D63172D68341537969F9A73899272C2 /* HalfPie.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -676,7 +690,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/HalfPie/HalfPie-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/HalfPie/HalfPie-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/HalfPie/HalfPie.modulemap";
 				PRODUCT_MODULE_NAME = HalfPie;
@@ -684,7 +698,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -707,7 +722,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-HalfPie_Example/Pods-HalfPie_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-HalfPie_Example/Pods-HalfPie_Example.modulemap";
