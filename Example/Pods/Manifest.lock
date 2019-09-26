@@ -1,0 +1,16 @@
+PODS:
+  - HalfPie (0.1.0)
+
+DEPENDENCIES:
+  - HalfPie (from `../`)
+
+EXTERNAL SOURCES:
+  HalfPie:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HalfPie: faa89aa9b7e3e0c16957ecc03c61e66dd0ccc458
+
+PODFILE CHECKSUM: 86953e36c038183ed3d2617cc0b1d76c44521b59
+
+COCOAPODS: 1.8.0

@@ -1,0 +1,6 @@
+framework module HalfPie {
+  umbrella header "HalfPie-umbrella.h"
+
+  export *
+  module * { export * }
+}

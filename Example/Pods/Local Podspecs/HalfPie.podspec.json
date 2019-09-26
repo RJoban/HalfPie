@@ -1,0 +1,22 @@
+{
+  "name": "HalfPie",
+  "version": "0.1.0",
+  "summary": "A short description of HalfPie.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ravi7876/HalfPie",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ravi7876": "ravi@vetron.in"
+  },
+  "source": {
+    "git": "https://github.com/ravi7876/HalfPie.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HalfPie/Classes/**/*"
+}
