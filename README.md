@@ -11,11 +11,11 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## How To
 
-    1. init HalfPie
+1. init HalfPie
 ```
-    let roundView = HalFPie()
+let roundView = HalFPie()
 ```
-    2. Customization
+2. Customization
 ```
     roundView.frontLineWidth = 3
     roundView.bottomLineWidth = 5
@@ -23,12 +23,12 @@ To run the example project, clone the repo, and run `pod install` from the Examp
     roundView.bottomLineColor = .lightGray
     roundView.needPointer = true
 ```
-    3. Set Value
+3. Set Value
 ```
     roundView.Add_PieViewFor(value: 5.9, total: 25)
 ```
-    Enjoy !!!
-    
+Enjoy !!!
+
 ## Requirements
 
 ## Installation
