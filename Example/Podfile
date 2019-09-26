@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HalfPie_Example' do
+  pod 'HalfPie', :path => '../'
+
+  target 'HalfPie_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
